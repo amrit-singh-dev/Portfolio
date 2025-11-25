@@ -1,4 +1,3 @@
-/* 🌟 Global Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +17,6 @@ body {
   line-height: 1.6;
 }
 
-/* 🌿 Header */
 header {
   background: rgba(25, 25, 25, 0.9);
   color: #fff;
@@ -59,7 +57,6 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-/* 🏠 Home Section */
 #home {
   height: 90vh;
   display: flex;
@@ -73,7 +70,6 @@ nav ul li a:hover {
   position: relative;
 }
 
-/* Decorative Floating Circles */
 #home::before,
 #home::after {
   content: "";
@@ -152,7 +148,6 @@ nav ul li a:hover {
   transform: scale(1.08);
 }
 
-/* ✨ Fade Animation */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -164,7 +159,6 @@ nav ul li a:hover {
   }
 }
 
-/* 📖 About Section */
 section {
   padding: 80px 20px;
   max-width: 1000px;
@@ -198,7 +192,6 @@ section h2::after {
   font-size: 17px;
 }
 
-/* 💼 Projects */
 .project {
   background: rgba(255, 255, 255, 0.8);
   padding: 25px;
@@ -213,7 +206,6 @@ section h2::after {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* 📞 Contact Section */
 .contact-links {
   display: flex;
   justify-content: center;
@@ -244,7 +236,6 @@ section h2::after {
   font-size: 18px;
 }
 
-/* ⚫ Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -254,7 +245,6 @@ footer {
   letter-spacing: 0.5px;
 }
 
-/* 📱 Responsive Design */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -276,7 +266,6 @@ footer {
     padding: 60px 15px;
   }
 }
-/* 💼 Projects Section */
 #projects {
   padding: 80px 20px;
   max-width: 1000px;
@@ -285,7 +274,7 @@ footer {
 
 .project {
   display: flex;
-  justify-content: space-between; /* Space between info and button */
+  justify-content: space-between; 
   align-items: center;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px 25px;
@@ -330,7 +319,6 @@ footer {
   transform: scale(1.05);
 }
 
-/* 📱 Responsive for mobile */
 @media (max-width: 768px) {
   .project {
     flex-direction: column;
@@ -343,7 +331,7 @@ footer {
   }
 
   .project-btn {
-    align-self: flex-end; /* button stays right on small screens */
+    align-self: flex-end; 
   }
 }
 
