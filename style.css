@@ -78,12 +78,14 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   animation: float 6s infinite ease-in-out alternate;
 }
+
 #home::before {
   width: 250px;
   height: 250px;
   top: 10%;
   left: 20%;
 }
+
 #home::after {
   width: 150px;
   height: 150px;
@@ -95,12 +97,13 @@ nav ul li a:hover {
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(-20px);
   }
 }
 
-/* Profile Image */
+
 .profile-img {
   width: 160px;
   height: 160px;
@@ -153,6 +156,7 @@ nav ul li a:hover {
     opacity: 0;
     transform: translateY(25px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -266,6 +270,7 @@ footer {
     padding: 60px 15px;
   }
 }
+
 #projects {
   padding: 80px 20px;
   max-width: 1000px;
@@ -274,7 +279,7 @@ footer {
 
 .project {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px 25px;
@@ -331,7 +336,6 @@ footer {
   }
 
   .project-btn {
-    align-self: flex-end; 
+    align-self: flex-end;
   }
 }
-
