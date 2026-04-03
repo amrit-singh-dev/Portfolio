@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio_react=globalThis.webpackChunkportfolio_react||[]).push([[603],{603(e,r,s){s.r(r),s.d(r,{default:()=>t});var i=s(579);const t=function(){return(0,i.jsxs)("section",{id:"home",children:[(0,i.jsx)("img",{src:"images/amrit_Dp.jpg",alt:"Amrit",className:"profile-img"}),(0,i.jsx)("h1",{children:"Hi, I'm Amrit"}),(0,i.jsx)("p",{className:"hero-role",children:"Frontend Developer & QA Tester"}),(0,i.jsx)("a",{href:"#contact",className:"btn",children:"Hire Me"})]})}}}]);
+//# sourceMappingURL=603.9ce80cee.chunk.js.map

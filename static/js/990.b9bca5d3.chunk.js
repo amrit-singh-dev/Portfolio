@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio_react=globalThis.webpackChunkportfolio_react||[]).push([[990],{990(e,r,s){s.r(r),s.d(r,{default:()=>t});var o=s(579);const t=function(){return(0,o.jsx)("footer",{children:(0,o.jsxs)("p",{children:["\xa9 2025 ",(0,o.jsx)("span",{className:"footer-name",children:"Amrit Singh"})," | All Rights Reserved"]})})}}}]);
+//# sourceMappingURL=990.b9bca5d3.chunk.js.map

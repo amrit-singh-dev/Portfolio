@@ -1,0 +1,2 @@
+"use strict";(globalThis.webpackChunkportfolio_react=globalThis.webpackChunkportfolio_react||[]).push([[124],{124(e,i,n){n.r(i),n.d(i,{default:()=>a});var t=n(579);const a=function(){return(0,t.jsxs)("section",{id:"about",children:[(0,t.jsx)("h2",{children:"About Me"}),(0,t.jsx)("p",{children:"Frontend Developer and QA Tester with experience in building responsive web applications and ensuring software quality. Skilled in HTML, CSS, JavaScript, React, and automation testing using Playwright and Cypress."})]})}}}]);
+//# sourceMappingURL=124.f79b3161.chunk.js.map
