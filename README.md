@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+#  Amrit Singh - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Frontend Developer & QA Tester Portfolio showcasing my projects, automation testing, and CI/CD pipeline.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Live Demo
+ https://amrit-singh-dev.github.io/Portfolio/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##  Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
+- HTML, CSS, JavaScript
+- React
+- Bootstrap
 
-### `npm test`
+### QA & Testing
+- Playwright (Automation Testing)
+- Manual Testing
+- Test Case Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### DevOps
+- Git & GitHub
+- GitHub Actions (CI/CD)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##  Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Responsive Design 
+- Mobile Navigation (Hamburger Menu)
+- Modern UI (Dark Theme)
+- QA Testing Section
+- Automated UI Testing with Playwright
+- CI/CD Pipeline using GitHub Actions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##  Automation Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- End-to-End tests using Playwright
+- Automated UI validation
+- Mobile responsiveness testing
+- Integrated with CI/CD pipeline
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  CI/CD Status
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Playwright Tests](https://github.com/amrit-singh-dev/Portfolio/actions/workflows/playwright.yml/badge.svg)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##  Project Structure
+portfolio-react/
+├── src/ # React components
+├── tests/ # Playwright tests
+├── .github/workflows/ # CI/CD pipeline
+├── public/ # Static files
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Email: as0816183@gmail.com  
+- GitHub: https://github.com/amrit-singh-dev  
+- LinkedIn: https://www.linkedin.com/
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Future Improvements
 
-### Making a Progressive Web App
+- Add API-based projects  
+- Improve UI animations  
+- Add more automation test coverage  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ If you like this project, feel free to star the repo!
