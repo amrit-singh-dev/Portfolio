@@ -9,24 +9,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
     <header>
       <nav>
         <h2>Amrit Singh</h2>
-        <ul>
+
+        <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#qa">QA Work</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
       </nav>
     </header>
 
     <section id="home">
-      <img src="images/amrit_Dp.jpg" alt="Amrit Singh" class="profile-img" />
+      <img
+        src="images/amrit_Dp.jpg"
+        alt="Amrit Singh"
+        class="profile-img"
+        loading="lazy"
+        width="160"
+        height="160"
+      />
       <h1>Hi, I'm Amrit</h1>
-      <p>Frontend Developer | HTML5 | CSS3 | JavaScript(ES6) | Bootstrap</p>
+      <h2 class="hero-role">Frontend Developer & QA Tester</h2>
       <a href="#contact" class="btn">Hire Me</a>
     </section>
 
@@ -39,6 +55,22 @@
         Experienced in developing mini-projects independently, demonstrating
         problem-solving, attention to detail, and UI design skills.
       </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills-container">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">React</span>
+        <span class="skill">Bootstrap</span>
+        <span class="skill">Playwright</span>
+        <span class="skill">Cypress</span>
+        <span class="skill">Postman</span>
+        <span class="skill">Jira</span>
+      </div>
     </section>
 
     <section id="projects">
@@ -88,6 +120,50 @@
           >View Project</a
         >
       </div>
+
+      <div class="project">
+        <div class="project-info">
+          <h3>Weather App (React)</h3>
+          <p>
+            React app with API integration to display real-time weather data.
+          </p>
+        </div>
+        <a
+          href="https://amrit-singh-dev.github.io/weather-dashboard-react/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn project-btn"
+        >
+          View Project
+        </a>
+      </div>
+    </section>
+
+    <section id="qa">
+      <h2>QA Testing Work</h2>
+
+      <div class="project">
+        <div class="project-info">
+          <h3>Portfolio UI Testing</h3>
+          <p>Tested UI components and responsiveness using Playwright.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-info">
+          <h3>Broken Links Testing</h3>
+          <p>Automated script to detect broken links and validate responses.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-info">
+          <h3>Functional Testing</h3>
+          <p>
+            Performed manual and automated testing for UI and functionality.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
@@ -116,7 +192,11 @@
     </section>
 
     <footer>
-      <p>© 2025 Amrit Singh | All Rights Reserved</p>
+      <p>
+        © 2025 <span class="footer-name">Amrit Singh</span> | All Rights
+        Reserved
+      </p>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>
